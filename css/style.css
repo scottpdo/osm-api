@@ -1,0 +1,28 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+html, body { margin: 0; padding: 0; }
+
+#map {
+	height: 1200px;
+	margin: 100px auto;
+	width: 1200px;
+}
+
+.node {
+	background: #000;
+	height: 4px;
+	position: absolute;
+	width: 4px;
+}
+.node.building {
+	background: #f00;
+}
+.node span { 
+	font-size: 11px; 
+	position: absolute;
+	width: 200px;
+}
